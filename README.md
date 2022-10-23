@@ -18,17 +18,16 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Summary
 
-To learn more about Next.js, take a look at the following resources:
+Hello Dan! I completed the page following the mockup and using a good amount of components. In some cases, such as the building of the hero, I made the button in the hero component for brevity's sake. As the app grows I would put the button as its own component for reusability. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- I made the secondary page the "videos" page, meaning every video has its own page pulling the description with it and showcased on its own page. The links on the videos work directly on the home page as well. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- I made the "do something awesome" button pick a random video from the Staff's picks.
 
-## Deploy on Vercel
+- Clicking on the avatar, leads to a drop down menu where we could have user sign out of account and edit his/her account.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Responsive layout and burger menu appears for navbar, felt like adding some more options to showcase a burger menu when in mobile mode. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-I did add animation to the logos and buttons as well. 
