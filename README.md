@@ -30,4 +30,4 @@ Hello Dan! I completed the page following the mockup and using a good amount of 
 
 - Responsive layout and burger menu appears for navbar, felt like adding some more options to showcase a burger menu when in mobile mode. 
 
--I did add animation to the logos and buttons as well. 
+- I did add animation to the logos and buttons as well. 
