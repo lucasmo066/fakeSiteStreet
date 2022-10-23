@@ -30,7 +30,7 @@ export default function Example() {
                   </Disclosure.Button>
                 </div>
                 <div className="flex flex-shrink-0 items-center">
-                    <Image src={Logo} alt="FakeSite Logo" width={40} height={30} className="block h-8 w-auto lg:hidden"/>
+                    <Image src={Logo} alt="FakeSite Logo" width={40} height={30} className="block h-6 w-auto lg:hidden animate-bounce"/>
                 </div>
                 <div className="hidden md:ml-6 md:flex md:space-x-8">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
