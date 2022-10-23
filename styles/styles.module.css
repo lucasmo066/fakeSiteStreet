@@ -1,0 +1,96 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/assets/hero-image.png");
+    position: relative;
+}
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white !important;
+    padding: 4rem;
+    align-self: flex-start;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.hero a:hover {
+    color: white !important;
+}
+
+.navbar > img {
+    height: 2rem;
+}
+
+.navbar > div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.navbar > div > img {
+    border-radius: 100%;
+    object-fit: cover;
+    height: 3rem;
+    width: auto;
+    border: 2px solid white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.content > p,.content > h1 {
+    color: white;
+    text-align: center;
+}
+
+.content > h1 {
+    font-size: 2.25rem;
+}
+
+.content > p {
+    line-height: 1.5rem;
+}
+
+.RichText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 4vw 15vw;
+
+}
+
+.RichText > p {
+    color: #88939E;
+}
+
+.RichText > h1 {
+    font-size: 1.75rem;
+    color: #4C4C51;
+}

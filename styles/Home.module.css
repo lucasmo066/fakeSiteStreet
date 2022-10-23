@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+}
+
+.footer .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    padding: 2rem 0;
+}
+
+.text {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.bottom img {
+    height: 2rem;
+}
+
+.bottom > div {
+    display: flex;
+}
+
+.footer > div {
+    display: flex;
+    gap: 6rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.links > span {
+    font-weight: bold;
+    color: #EE2D1C;
+    margin-bottom: 0.75rem;
+}
+
+.links > a {
+    color: #88939E;
+}
+
+.bottom > div {
+    display: flex;
+    gap: 2rem;
+    color: #88939E;
+}
+
+.footer > div {
+    padding: 2rem 0;
+}
