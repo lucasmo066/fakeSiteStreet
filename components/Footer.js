@@ -21,7 +21,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className={styles.bottom}>
-                <img src="/assets/logo.png" loading="lazy" alt="FakeSite Logo" />
+                <img className= "hover:animate-spin" src="/assets/logo.png" loading="lazy" alt="FakeSite Logo" />
                 <div>
                     <Link href="#">Terms</Link>
                     <Link href="#">Privacy</Link>

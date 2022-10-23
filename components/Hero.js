@@ -19,7 +19,7 @@ export default function Hero({ videos }) {
                 <p>Create the world's greatest fake site and enjoy
                 <br />
                 the breeze of fresh air when you complete it.</p>
-                <button id="random-button" className="btn shadow-md hover:bg-red-400 active:bg-red-700 focus:outline-none focus:ring focus:ring-red-300">Random Video</button>
+                <button id="random-button" className="btn shadow-md hover:bg-red-500 active:bg-red-700 focus:outline-none focus:ring focus:ring-red-300 animate-bounce">Random Video</button>
             </div>
         </section>
     )
