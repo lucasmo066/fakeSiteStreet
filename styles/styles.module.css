@@ -3,7 +3,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/assets/hero-image.png");
     position: relative;
 }
 
@@ -56,9 +60,6 @@
     align-items: center;
     text-align: center;
     gap: 1.5rem;
-    height: 100%;
-    width: 100%;
-    align-self: center;
 }
 
 .content > p,.content > h1 {
